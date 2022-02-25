@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+	<title> OLSCHO WEBSITE </title>
+<style>
+body{
+	margin:0 auto;
+	padding:0;
+	position: relative;
+}
+nav{
+	width:100%;
+	background: black;
+	overflow:auto;
+}
+ul{
+	padding:0;
+	margin:0 0 0 150px;
+	list-style-type:none;
+}
+li{
+	float:left;
+	padding:1px;
+	margin:0px;
+}
+.logo img{
+	position:absolute;
+	margin-top:15px;
+	margin-left:45px;
+}
+nav a{
+	width:100px;
+	display:block;
+	padding: 15px 10px;
+	text-decoration:none;
+	font-family: elephant;
+	font-size: 15px;
+	color:#F2F2F2;
+	text-align:center;
+}
+nav a:hover{
+	background:lightskyblue;
+	transition:0.5s;
+	text-transform:uppercase;
+}
+.background-wrap{
+	position:fixed;
+	z-index:-1000;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	top:0;
+	left:0;
+	overflow:hidden;
+	top:0;
+	left:0;
+}
+#video-bg-elem {
+	position:absolute;
+	top:0;
+	left:0;
+	min-height: 100%;
+	min-width:100%;
+}
+</style>
+</head>
+
+<body>
+		<div class="logo">
+		<img src="D:\01WEBDESIGN\image\1645537213705.png" width="90"></img>
+		</div>
+<nav>
+	<ul>
+		<li><a href="homepage.html">Home</a></li>
+		<li><a href="aboutus.html">About</a></li>
+		<li><a href="programoffered.html">Programs</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+		<div class="background-wrap">
+			<video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted">
+				<source src="D:\01WEBDESIGN\image\lv_0_20220223171452.mp4" type="video/mp4">
+			</video>
+		</div>
+</nav>
+</body>
+</html>
